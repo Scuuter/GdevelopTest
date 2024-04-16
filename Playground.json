@@ -143,7 +143,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.253038774059027,
+        "zoomFactor": 2.967864077869627,
         "windowMask": false
       },
       "objectsGroups": [
@@ -467,6 +467,21 @@
           "x": 136,
           "y": 148,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Stick",
+          "persistentUuid": "7a23a071-1044-453d-8c02-2f867019c58b",
+          "width": 0,
+          "x": 164,
+          "y": 207,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
