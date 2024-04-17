@@ -130,6 +130,24 @@
         "name": "Square",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stick4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stick3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Square2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -152,16 +170,16 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
-        "gridWidth": 1,
-        "gridHeight": 1,
+        "gridWidth": 16,
+        "gridHeight": 16,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 2.967864077869627,
+        "snap": true,
+        "zoomFactor": 0.814188120371043,
         "windowMask": false
       },
       "objectsGroups": [
@@ -253,8 +271,8 @@
           "name": "Line",
           "persistentUuid": "4c6147b9-8b3b-48a2-a255-2cb2a1f79139",
           "width": 8,
-          "x": 290,
-          "y": 511,
+          "x": 312,
+          "y": 496,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -269,8 +287,8 @@
           "name": "Line",
           "persistentUuid": "7c701fae-895e-4491-8b31-78834e582bde",
           "width": 8,
-          "x": 394,
-          "y": 503,
+          "x": 416,
+          "y": 488,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -285,8 +303,8 @@
           "name": "Line",
           "persistentUuid": "fe05d80e-d9f3-472a-9da1-ead3dbe65239",
           "width": 104,
-          "x": 298,
-          "y": 607,
+          "x": 320,
+          "y": 592,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -301,8 +319,8 @@
           "name": "Line",
           "persistentUuid": "ff5ea433-21ab-4e0e-8d32-c7fed0166c7f",
           "width": 104,
-          "x": 290,
-          "y": 503,
+          "x": 312,
+          "y": 488,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -365,25 +383,9 @@
           "name": "Square",
           "persistentUuid": "699e5572-eacf-45be-aa71-252b5ce5ad17",
           "width": 32,
-          "x": 362,
-          "y": 575,
+          "x": 384,
+          "y": 560,
           "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "layer": "",
-          "name": "Stick",
-          "persistentUuid": "b7ef8880-8780-488d-bab2-99a21f3687e7",
-          "width": 16,
-          "x": 521,
-          "y": 538,
-          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -397,8 +399,8 @@
           "name": "Square",
           "persistentUuid": "cd93abf6-55ae-4f8c-8773-829633bbd79f",
           "width": 32,
-          "x": 330,
-          "y": 575,
+          "x": 352,
+          "y": 560,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -413,8 +415,8 @@
           "name": "Square",
           "persistentUuid": "92e5a63f-9bd0-408f-946c-1203b2991605",
           "width": 32,
-          "x": 362,
-          "y": 543,
+          "x": 384,
+          "y": 528,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -429,8 +431,8 @@
           "name": "Square",
           "persistentUuid": "85ac33b4-972d-4d84-abb0-0afb5a3a333f",
           "width": 32,
-          "x": 362,
-          "y": 511,
+          "x": 320,
+          "y": 496,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -445,8 +447,8 @@
           "name": "Square",
           "persistentUuid": "5555a3bd-95c4-448a-91a4-d7cc3d4c6211",
           "width": 32,
-          "x": 330,
-          "y": 543,
+          "x": 352,
+          "y": 528,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -461,8 +463,8 @@
           "name": "Square",
           "persistentUuid": "80dd3a44-7eed-4e25-a088-0940f9a0dbcc",
           "width": 32,
-          "x": 298,
-          "y": 575,
+          "x": 320,
+          "y": 560,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -477,8 +479,8 @@
           "name": "Square",
           "persistentUuid": "79c939c5-bdc9-4399-ac69-6b09ed05faca",
           "width": 32,
-          "x": 298,
-          "y": 543,
+          "x": 320,
+          "y": 528,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -584,7 +586,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stick",
+                      "image": "Stick3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -604,16 +606,16 @@
                             "y": 0
                           },
                           {
-                            "x": 8,
+                            "x": 16,
                             "y": 0
                           },
                           {
-                            "x": 8,
-                            "y": 32
+                            "x": 16,
+                            "y": 64
                           },
                           {
                             "x": 0,
-                            "y": 32
+                            "y": 64
                           }
                         ]
                       ]
@@ -651,7 +653,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Square",
+                      "image": "Square2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -671,16 +673,16 @@
                             "y": 0
                           },
                           {
-                            "x": 16,
+                            "x": 32,
                             "y": 0
                           },
                           {
-                            "x": 16,
-                            "y": 16
+                            "x": 32,
+                            "y": 32
                           },
                           {
                             "x": 0,
-                            "y": 16
+                            "y": 32
                           }
                         ]
                       ]
@@ -792,7 +794,7 @@
               },
               "parameters": [
                 "FiguresGroup",
-                "20",
+                "60",
                 "",
                 "1"
               ]
@@ -837,8 +839,8 @@
               "parameters": [
                 "",
                 "FiguresGroup",
-                "4",
-                "4",
+                "8",
+                "8",
                 "",
                 "",
                 ""
@@ -847,6 +849,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
